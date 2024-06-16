@@ -122,7 +122,7 @@ def step_impl(context, name):
         )
     )
     assert(found)
-behave
+
 @then('I should see the message "{message}"')
 def step_impl(context, message):
     found = WebDriverWait(context.driver, context.wait_seconds).until(
